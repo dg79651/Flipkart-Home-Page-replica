@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhai+2:wght@500;600&family=Baloo+Bhaijaan+2&family=Marck+Script&family=Montserrat:ital,wght@0,200;0,300;0,400;1,200&family=Poppins:ital,wght@0,100;0,300;1,300&display=swap');
+/* font-family: 'Baloo 2', cursive;
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* golable var */
+:root
+{
+    --main-bg-color:rgb(104, 42, 165);
+    --color-fpk:#2874f0;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header{
+background:var(--color-fpk);
+color: white;
+/* border: 2px solid red; */
+
+/* width: 100vw; */
+}
+.logo img{
+    width: 80px;
+    padding: 0px 23px;
+}
+
+.logo 
+{
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    /* justify-content: center; */
+}
+.bt
+{
+    font-family:  cursive;
+}
+.bar
+{
+     display: flex;
+     align-items: center;
+}
+#sbar
+{
+    height: 28px;
+    width: 493px;
+    border-radius: 2px;
+    /* padding: 0px 18px;*/
+    margin:0px 10px 0px  29px;
+  }
+
+nav ul
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 56px;
+
+}
+header nav ul li
+{
+    list-style: none;
+    padding: 0px 23px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    /* color: wheat; */
+    font-weight: bolder;
+}
+footer
+{
+    background-color:var(--color-fpk);
+    color: white;
+    height: 12vh;
+    /* width: 100vw; */
+    font-family: 'Marck Script', cursive;
+}
+.cont
+{
+   min-height:80.2vh;
+   min-height:calc(100vh-56px-12vh); 
+}
+.slider
+{
+   margin: 15px auto;
+    width:91vw;
+}
+.card
+{
+    /* background-color:yellow; */
+    width:95vw;
+    margin: auto;
+    /* display: flex; */
+    
+}
+card h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    display: inline;
+
+} 
+ .item
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 8vw;
+    margin: 18px 16px 2px 0px;
+    text-align: center;
+}
+
+.scard
+{
+    display:flex;
+    overflow: hidden;
+} 
